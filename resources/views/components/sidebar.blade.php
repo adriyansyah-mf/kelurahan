@@ -8,14 +8,66 @@ $links = [
     [
         "href" => [
             [
-                "section_text" => "User",
+                "section_text" => "Kelurahan",
                 "section_list" => [
-                    ["href" => "user", "text" => "Data User"],
-                    ["href" => "user.new", "text" => "Buat User"]
+                    ["href" => "kelurahan", "text" => "Data Kelurahan"],
+                    ["href" => "kelurahantambah", "text" => "Tambah Data Kelurahan"]
                 ]
             ]
         ],
-        "text" => "User",
+        "text" => "Data Kelurahan",
+        "is_multi" => true,
+    ],
+    [
+        "href" => [
+            [
+                "section_text" => "Data RT",
+                "section_list" => [
+                    ["href" => "rt", "text" => "Data RT"],
+                     ["href" => "rttambah", "text" => "Tambah Data RT"]
+                ]
+            ]
+        ],
+        "text" => "Data RT",
+        "is_multi" => true,
+    ],
+    [
+        "href" => [
+            [
+                "section_text" => "Data RW",
+                "section_list" => [
+                    ["href" => "rw", "text" => "Data RW"],
+                     ["href" => "rwtambah", "text" => "Tambah Data RW"]
+                ]
+            ]
+        ],
+        "text" => "Data RW",
+        "is_multi" => true,
+    ],
+    [
+        "href" => [
+            [
+                "section_text" => "Data Tamu",
+                "section_list" => [
+                    ["href" => "tamu", "text" => "Data Tamu"],
+
+                ]
+            ]
+        ],
+        "text" => "Data RW",
+        "is_multi" => true,
+    ],
+    [
+        "href" => [
+            [
+                "section_text" => "Data Warga",
+                "section_list" => [
+                    ["href" => "warga", "text" => "Data Warga"],
+
+                ]
+            ]
+        ],
+        "text" => "Data RW",
         "is_multi" => true,
     ],
 ];
